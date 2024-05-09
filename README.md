@@ -3,8 +3,8 @@
 #### React Folder Structure 
 
 - pages 
-		- auth: index.jsx 
-		- dashboard: index.jsx 
+	- auth: index.jsx 
+	- dashboard: index.jsx 
 - config: firebase-config.js 
 - hooks: useAddTransaction.js, useGetUserInfo.js
 
