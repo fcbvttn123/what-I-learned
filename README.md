@@ -27,3 +27,9 @@ Number("2")
 ```js
 <Route path="/" exact component={Home} />
 ```
+
+#### Refresh The Page
+
+```js
+window.location.reload()
+```
