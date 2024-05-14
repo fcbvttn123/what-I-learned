@@ -33,3 +33,26 @@ Number("2")
 ```js
 window.location.reload()
 ```
+
+## Git 
+
+#### Fork vs Clone 
+
+- Clone: you can download the open-source project to your local env, make changes but cannot push changes back to the repo. That's why you need fork.
+  
+- Fork: you make a copy of the open-source project on your own GitHub account, clone it, make changes and push them to your own GitHub account. Then, you make a PR to merge your forked copy to the original open-source project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
