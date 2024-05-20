@@ -20,6 +20,22 @@ localStorage.clear()
 Number("2")
 ```
 
+#### Another way rendering children prop
+
+```js
+// Using a Self-Closing Tag with the Spread Operator
+const Block = ({ className, ...rest }) => {
+  return (
+    <motion.div
+      className={className}
+      {...rest}
+    />
+  );
+};
+// Any children passed to Block will be included in the ...rest and will automatically be rendered by the <motion.div />
+
+```
+
 ## React Router 
 
 #### New Keyword: exact
@@ -32,6 +48,14 @@ Number("2")
 
 ```js
 window.location.reload()
+```
+
+## Tailwind CSS 
+
+#### Class Names 
+
+```js
+<img className="size-14" />
 ```
 
 ## Git 
